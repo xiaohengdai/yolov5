@@ -50,4 +50,5 @@ for image_set in sets:
         print("image_id:",image_id)
         list_file.write('data/images/%s.jpg\n' % (image_id))
         convert_annotation(image_id)
+
     list_file.close()
